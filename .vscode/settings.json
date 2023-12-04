@@ -1,0 +1,23 @@
+{
+    "files.eol": "\n",
+    // turn it off for JS and JSX, we will do this via eslint
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    // show eslint icon at bottom toolbar
+    "eslint.alwaysShowStatus": true,
+    // tell the ESLint plugin to run on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#FFF",
+        "titleBar.inactiveForeground": "#FFFFFFCC",
+        "titleBar.activeBackground": "#339ECD",
+        "titleBar.inactiveBackground": "#339ECDCC"
+    },
+    "eslint.workingDirectories": ["./services/dinpsykolog"]
+}
